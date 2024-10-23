@@ -1,3 +1,13 @@
-﻿Console.WriteLine("Hello, World!");
-Console.WriteLine("Change from local");
-Console.WriteLine("Change from remote");
+﻿using MyApp;
+
+Console.WriteLine("Hi ali");
+
+CustomClass customClass = new CustomClass();
+
+ customClass.Method1();
+ customClass.Method2();
+
+
+Console.WriteLine("Finish");
+Console.WriteLine("---------------------------");
+//Console.ReadLine();
